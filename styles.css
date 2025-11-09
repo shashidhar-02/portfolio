@@ -112,6 +112,20 @@ body{overflow-x:hidden;position:relative}
   background:linear-gradient(135deg, rgba(96,165,250,0.1), rgba(167,139,250,0.1));
   border-radius:12px;
 }
+.profile-photo{
+  width:180px;
+  height:180px;
+  border-radius:50%;
+  object-fit:cover;
+  border:5px solid var(--accent);
+  box-shadow:0 8px 24px rgba(96,165,250,0.4);
+  margin-bottom:24px;
+  transition:all 0.3s ease;
+}
+.profile-photo:hover{
+  transform:scale(1.05);
+  box-shadow:0 12px 32px rgba(96,165,250,0.6);
+}
 .hero-name{
   font-size:48px;
   font-weight:700;
